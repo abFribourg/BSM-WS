@@ -1,4 +1,5 @@
 {
   "host": "bsm-ws-app.feathersjs.com",
-  "port": "PORT"
+  "port": "PORT",
+  "mongodb": "MONGODB_URI"
 }
