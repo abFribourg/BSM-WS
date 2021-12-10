@@ -8,14 +8,15 @@ module.exports = function (app) {
   const { Schema } = mongooseClient;
   const schema = new Schema({
     number: { type: String, required: true },
-    title: { type: String, required: true},
-    description: { type: String},
+    title: { type: String },
+    description: { type: String },
+    project: {type: String},
     versions: [{
-        identifiant: { type: String},
-        date: { type: String },
-        des: { type: String },
-        ing: { type: String }
-      }]
+      identifiant: { type: String},
+      date: { type: String },
+      des: { type: String },
+      ing: { type: String }
+    }]
   }, {
     timestamps: true
   });
