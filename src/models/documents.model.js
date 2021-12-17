@@ -10,9 +10,10 @@ module.exports = function (app) {
     number: { type: String, required: true },
     title: { type: String },
     description: { type: String },
-    project: {type: String},
+    project: {type: String },
     versions: [{
-      identifiant: { type: String},
+      identifiant: { type: String },
+      description: { type: String },
       date: { type: String },
       des: { type: String },
       ing: { type: String }
